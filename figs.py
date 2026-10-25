@@ -13,7 +13,7 @@ plt.rcParams.update({
     "axes.facecolor": "white", "savefig.facecolor": "white", "savefig.dpi": 200,
 })
 R = json.load(open("results.json"))
-OUT = "/home/claude/figs/"
+OUT = "figs/"
 import os; os.makedirs(OUT, exist_ok=True)
 
 

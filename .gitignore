@@ -1,0 +1,9 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# private environment from Step 5 (it is large and can be rebuilt)
+venv/
+
+# editor settings
+.vscode/
